@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0BE51127F4737800FBC12E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE51027F4737700FBC12E /* SettingView.swift */; };
+		0D0BE51327F66FCF00FBC12E /* ColorSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE51227F66FCD00FBC12E /* ColorSettingView.swift */; };
+		0D0BE51527F6E62200FBC12E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE51427F6E62200FBC12E /* WebView.swift */; };
+		0D0BE51927F7E60000FBC12E /* HowToUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BE51827F7E5FF00FBC12E /* HowToUseView.swift */; };
+		0D78C1BB27F1548000906A48 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D78C1BA27F1548000906A48 /* AddItemView.swift */; };
+		0D78C1BD27F158A300906A48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D78C1BC27F158A300906A48 /* ContentView.swift */; };
+		0D79B04227F2A5B100F51FAF /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79B04127F2A5B100F51FAF /* AnalyticsView.swift */; };
+		0D79B04627F2B9FA00F51FAF /* AnalyticsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79B04527F2B9FA00F51FAF /* AnalyticsRowView.swift */; };
+		0D88BDCD27EDD7C60003C970 /* SabusukuKanriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D88BDCC27EDD7C60003C970 /* SabusukuKanriApp.swift */; };
+		0D88BDD127EDD7D10003C970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D88BDD027EDD7D10003C970 /* Assets.xcassets */; };
+		0D88BDD427EDD7D10003C970 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D88BDD327EDD7D10003C970 /* Preview Assets.xcassets */; };
+		0DAD930C27EDD86E0075D919 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD930B27EDD86E0075D919 /* ListView.swift */; };
+		0DAD930E27EDD8820075D919 /* SumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD930D27EDD8820075D919 /* SumView.swift */; };
+		0DAD931027EDD8920075D919 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD930F27EDD8920075D919 /* ListRowView.swift */; };
+		0DAD931227EDD8AD0075D919 /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD931127EDD8AD0075D919 /* AddListView.swift */; };
+		0DAD931427EDD8C60075D919 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD931327EDD8C60075D919 /* NoItemsView.swift */; };
+		0DAD931627EDD8DA0075D919 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD931527EDD8DA0075D919 /* ListViewModel.swift */; };
+		0DAD931827EDD8F00075D919 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD931727EDD8F00075D919 /* Model.swift */; };
+		0DC4D48227EED61A00C263D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4D48127EED61A00C263D9 /* LaunchScreen.storyboard */; };
+		0DD49E1227FE87F9001E9886 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DD49E1127FE87F9001E9886 /* GoogleService-Info.plist */; };
+		0DD55E7228744CBF003FEC0A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD55E7128744CBF003FEC0A /* ChartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D0BE51027F4737700FBC12E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		0D0BE51227F66FCD00FBC12E /* ColorSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSettingView.swift; sourceTree = "<group>"; };
+		0D0BE51427F6E62200FBC12E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		0D0BE51827F7E5FF00FBC12E /* HowToUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseView.swift; sourceTree = "<group>"; };
+		0D78C1BA27F1548000906A48 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		0D78C1BC27F158A300906A48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D79B04127F2A5B100F51FAF /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		0D79B04527F2B9FA00F51FAF /* AnalyticsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsRowView.swift; sourceTree = "<group>"; };
+		0D88BDCC27EDD7C60003C970 /* SabusukuKanriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabusukuKanriApp.swift; sourceTree = "<group>"; };
+		0D88BDD027EDD7D10003C970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D88BDD327EDD7D10003C970 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DAD930B27EDD86E0075D919 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		0DAD930D27EDD8820075D919 /* SumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumView.swift; sourceTree = "<group>"; };
+		0DAD930F27EDD8920075D919 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		0DAD931127EDD8AD0075D919 /* AddListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListView.swift; sourceTree = "<group>"; };
+		0DAD931327EDD8C60075D919 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		0DAD931527EDD8DA0075D919 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		0DAD931727EDD8F00075D919 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0DC4D47E27EED38400C263D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0DC4D48127EED61A00C263D9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DD49E1027FE851C001E9886 /* SabusukuKanri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SabusukuKanri.entitlements; sourceTree = "<group>"; };
+		0DD49E1127FE87F9001E9886 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DD55E7128744CBF003FEC0A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		0DD55E75287478FF003FEC0A /* SabusukuKanri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SabusukuKanri.app; path = "/Users/harukikoga/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Programming/DevelopedApps/さぶすく管理/SabusukuKanri/build/Debug-iphoneos/SabusukuKanri.app"; sourceTree = "<absolute>"; };
+		165723E628514D7EC938A2B3 /* Pods-SabusukuKanri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SabusukuKanri.debug.xcconfig"; path = "Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri.debug.xcconfig"; sourceTree = "<group>"; };
+		E4AEA9B7D849C0D3CB1B9B0C /* Pods-SabusukuKanri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SabusukuKanri.release.xcconfig"; path = "Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D88BDC627EDD7C50003C970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0BE50D27F3F49400FBC12E /* SabusukuList */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD930B27EDD86E0075D919 /* ListView.swift */,
+				0DAD930F27EDD8920075D919 /* ListRowView.swift */,
+				0DAD931127EDD8AD0075D919 /* AddListView.swift */,
+				0D78C1BA27F1548000906A48 /* AddItemView.swift */,
+				0DAD931327EDD8C60075D919 /* NoItemsView.swift */,
+				0DAD930D27EDD8820075D919 /* SumView.swift */,
+			);
+			path = SabusukuList;
+			sourceTree = "<group>";
+		};
+		0D0BE50E27F3F4A700FBC12E /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				0D79B04127F2A5B100F51FAF /* AnalyticsView.swift */,
+				0D79B04527F2B9FA00F51FAF /* AnalyticsRowView.swift */,
+				0DD55E7128744CBF003FEC0A /* ChartView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		0D0BE50F27F4736300FBC12E /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				0D0BE51027F4737700FBC12E /* SettingView.swift */,
+				0D0BE51227F66FCD00FBC12E /* ColorSettingView.swift */,
+				0D0BE51427F6E62200FBC12E /* WebView.swift */,
+				0D0BE51827F7E5FF00FBC12E /* HowToUseView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		0D88BDC027EDD7C50003C970 = {
+			isa = PBXGroup;
+			children = (
+				0D88BDCB27EDD7C60003C970 /* SabusukuKanri */,
+				B2829C62C900A580F8C4A240 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0D88BDCB27EDD7C60003C970 /* SabusukuKanri */ = {
+			isa = PBXGroup;
+			children = (
+				0DD49E1027FE851C001E9886 /* SabusukuKanri.entitlements */,
+				0DC4D47E27EED38400C263D9 /* Info.plist */,
+				0D88BDCC27EDD7C60003C970 /* SabusukuKanriApp.swift */,
+				0DAD931927EDD9180075D919 /* Views */,
+				0DAD931A27EDD92A0075D919 /* ViewModels */,
+				0DAD931B27EDD9460075D919 /* Models */,
+				0D88BDD027EDD7D10003C970 /* Assets.xcassets */,
+				0DD49E1127FE87F9001E9886 /* GoogleService-Info.plist */,
+				0D88BDD227EDD7D10003C970 /* Preview Content */,
+			);
+			path = SabusukuKanri;
+			sourceTree = "<group>";
+		};
+		0D88BDD227EDD7D10003C970 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D88BDD327EDD7D10003C970 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DAD931927EDD9180075D919 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D78C1BC27F158A300906A48 /* ContentView.swift */,
+				0DC4D48127EED61A00C263D9 /* LaunchScreen.storyboard */,
+				0D0BE50D27F3F49400FBC12E /* SabusukuList */,
+				0D0BE50E27F3F4A700FBC12E /* Analytics */,
+				0D0BE50F27F4736300FBC12E /* Setting */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DAD931A27EDD92A0075D919 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD931527EDD8DA0075D919 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DAD931B27EDD9460075D919 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD931727EDD8F00075D919 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2829C62C900A580F8C4A240 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				165723E628514D7EC938A2B3 /* Pods-SabusukuKanri.debug.xcconfig */,
+				E4AEA9B7D849C0D3CB1B9B0C /* Pods-SabusukuKanri.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D88BDC827EDD7C50003C970 /* SabusukuKanri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D88BDD727EDD7D10003C970 /* Build configuration list for PBXNativeTarget "SabusukuKanri" */;
+			buildPhases = (
+				72193E15C088C02F4C226EF9 /* [CP] Check Pods Manifest.lock */,
+				0D88BDC527EDD7C50003C970 /* Sources */,
+				0D88BDC627EDD7C50003C970 /* Frameworks */,
+				0D88BDC727EDD7C50003C970 /* Resources */,
+				5656A3E2CD243E9844F549F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SabusukuKanri;
+			productName = SabusukuKanri;
+			productReference = 0DD55E75287478FF003FEC0A /* SabusukuKanri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D88BDC127EDD7C50003C970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0D88BDC827EDD7C50003C970 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D88BDC427EDD7C50003C970 /* Build configuration list for PBXProject "SabusukuKanri" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D88BDC027EDD7C50003C970;
+			productRefGroup = 0D88BDC027EDD7C50003C970;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D88BDC827EDD7C50003C970 /* SabusukuKanri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D88BDC727EDD7C50003C970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC4D48227EED61A00C263D9 /* LaunchScreen.storyboard in Resources */,
+				0DD49E1227FE87F9001E9886 /* GoogleService-Info.plist in Resources */,
+				0D88BDD427EDD7D10003C970 /* Preview Assets.xcassets in Resources */,
+				0D88BDD127EDD7D10003C970 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5656A3E2CD243E9844F549F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72193E15C088C02F4C226EF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SabusukuKanri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D88BDC527EDD7C50003C970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD931227EDD8AD0075D919 /* AddListView.swift in Sources */,
+				0D78C1BB27F1548000906A48 /* AddItemView.swift in Sources */,
+				0DAD930C27EDD86E0075D919 /* ListView.swift in Sources */,
+				0DAD931627EDD8DA0075D919 /* ListViewModel.swift in Sources */,
+				0D0BE51127F4737800FBC12E /* SettingView.swift in Sources */,
+				0D0BE51327F66FCF00FBC12E /* ColorSettingView.swift in Sources */,
+				0D0BE51927F7E60000FBC12E /* HowToUseView.swift in Sources */,
+				0D0BE51527F6E62200FBC12E /* WebView.swift in Sources */,
+				0DAD931427EDD8C60075D919 /* NoItemsView.swift in Sources */,
+				0D79B04227F2A5B100F51FAF /* AnalyticsView.swift in Sources */,
+				0DD55E7228744CBF003FEC0A /* ChartView.swift in Sources */,
+				0DAD930E27EDD8820075D919 /* SumView.swift in Sources */,
+				0D78C1BD27F158A300906A48 /* ContentView.swift in Sources */,
+				0D79B04627F2B9FA00F51FAF /* AnalyticsRowView.swift in Sources */,
+				0D88BDCD27EDD7C60003C970 /* SabusukuKanriApp.swift in Sources */,
+				0DAD931027EDD8920075D919 /* ListRowView.swift in Sources */,
+				0DAD931827EDD8F00075D919 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D88BDD527EDD7D10003C970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D88BDD627EDD7D10003C970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D88BDD827EDD7D10003C970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165723E628514D7EC938A2B3 /* Pods-SabusukuKanri.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SabusukuKanri/SabusukuKanri.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = NMVH7U46L7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SabusukuKanri/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "さぶすく管理";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = harukikoga.com.SabusukuKanri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D88BDD927EDD7D10003C970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4AEA9B7D849C0D3CB1B9B0C /* Pods-SabusukuKanri.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SabusukuKanri/SabusukuKanri.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = NMVH7U46L7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SabusukuKanri/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "さぶすく管理";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = harukikoga.com.SabusukuKanri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D88BDC427EDD7C50003C970 /* Build configuration list for PBXProject "SabusukuKanri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D88BDD527EDD7D10003C970 /* Debug */,
+				0D88BDD627EDD7D10003C970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D88BDD727EDD7D10003C970 /* Build configuration list for PBXNativeTarget "SabusukuKanri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D88BDD827EDD7D10003C970 /* Debug */,
+				0D88BDD927EDD7D10003C970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D88BDC127EDD7C50003C970 /* Project object */;
+}
