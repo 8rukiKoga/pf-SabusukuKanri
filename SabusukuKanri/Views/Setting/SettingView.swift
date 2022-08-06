@@ -94,7 +94,7 @@ struct SettingView: View {
                             HStack {
                                 Text("バージョン")
                                 Spacer()
-                                Text("1.1")
+                                Text("1.3")
                             }
                             Button {
                                 url = "https://8rukikoga.github.io/Portfolio/SabusukuKanri.html"
