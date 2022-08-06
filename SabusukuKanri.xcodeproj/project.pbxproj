@@ -26,7 +26,6 @@
 		0DAD931627EDD8DA0075D919 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD931527EDD8DA0075D919 /* ListViewModel.swift */; };
 		0DAD931827EDD8F00075D919 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD931727EDD8F00075D919 /* Model.swift */; };
 		0DC4D48227EED61A00C263D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC4D48127EED61A00C263D9 /* LaunchScreen.storyboard */; };
-		0DD49E1227FE87F9001E9886 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DD49E1127FE87F9001E9886 /* GoogleService-Info.plist */; };
 		0DD55E7228744CBF003FEC0A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD55E7128744CBF003FEC0A /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,12 +50,8 @@
 		0DAD931727EDD8F00075D919 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0DC4D47E27EED38400C263D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0DC4D48127EED61A00C263D9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0DD49E1027FE851C001E9886 /* SabusukuKanri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SabusukuKanri.entitlements; sourceTree = "<group>"; };
-		0DD49E1127FE87F9001E9886 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DD47CE1289E5ECA006EDAB2 /* SabusukuKanri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SabusukuKanri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD55E7128744CBF003FEC0A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
-		0DD55E75287478FF003FEC0A /* SabusukuKanri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SabusukuKanri.app; path = "/Users/harukikoga/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Programming/DevelopedApps/さぶすく管理/SabusukuKanri/build/Debug-iphoneos/SabusukuKanri.app"; sourceTree = "<absolute>"; };
-		165723E628514D7EC938A2B3 /* Pods-SabusukuKanri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SabusukuKanri.debug.xcconfig"; path = "Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri.debug.xcconfig"; sourceTree = "<group>"; };
-		E4AEA9B7D849C0D3CB1B9B0C /* Pods-SabusukuKanri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SabusukuKanri.release.xcconfig"; path = "Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,21 +103,19 @@
 			isa = PBXGroup;
 			children = (
 				0D88BDCB27EDD7C60003C970 /* SabusukuKanri */,
-				B2829C62C900A580F8C4A240 /* Pods */,
+				0DD47CE1289E5ECA006EDAB2 /* SabusukuKanri.app */,
 			);
 			sourceTree = "<group>";
 		};
 		0D88BDCB27EDD7C60003C970 /* SabusukuKanri */ = {
 			isa = PBXGroup;
 			children = (
-				0DD49E1027FE851C001E9886 /* SabusukuKanri.entitlements */,
 				0DC4D47E27EED38400C263D9 /* Info.plist */,
 				0D88BDCC27EDD7C60003C970 /* SabusukuKanriApp.swift */,
 				0DAD931927EDD9180075D919 /* Views */,
 				0DAD931A27EDD92A0075D919 /* ViewModels */,
 				0DAD931B27EDD9460075D919 /* Models */,
 				0D88BDD027EDD7D10003C970 /* Assets.xcassets */,
-				0DD49E1127FE87F9001E9886 /* GoogleService-Info.plist */,
 				0D88BDD227EDD7D10003C970 /* Preview Content */,
 			);
 			path = SabusukuKanri;
@@ -164,15 +157,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		B2829C62C900A580F8C4A240 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				165723E628514D7EC938A2B3 /* Pods-SabusukuKanri.debug.xcconfig */,
-				E4AEA9B7D849C0D3CB1B9B0C /* Pods-SabusukuKanri.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,11 +164,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D88BDD727EDD7D10003C970 /* Build configuration list for PBXNativeTarget "SabusukuKanri" */;
 			buildPhases = (
-				72193E15C088C02F4C226EF9 /* [CP] Check Pods Manifest.lock */,
 				0D88BDC527EDD7C50003C970 /* Sources */,
 				0D88BDC627EDD7C50003C970 /* Frameworks */,
 				0D88BDC727EDD7C50003C970 /* Resources */,
-				5656A3E2CD243E9844F549F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,7 +174,7 @@
 			);
 			name = SabusukuKanri;
 			productName = SabusukuKanri;
-			productReference = 0DD55E75287478FF003FEC0A /* SabusukuKanri.app */;
+			productReference = 0DD47CE1289E5ECA006EDAB2 /* SabusukuKanri.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -234,55 +216,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC4D48227EED61A00C263D9 /* LaunchScreen.storyboard in Resources */,
-				0DD49E1227FE87F9001E9886 /* GoogleService-Info.plist in Resources */,
 				0D88BDD427EDD7D10003C970 /* Preview Assets.xcassets in Resources */,
 				0D88BDD127EDD7D10003C970 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5656A3E2CD243E9844F549F8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SabusukuKanri/Pods-SabusukuKanri-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		72193E15C088C02F4C226EF9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SabusukuKanri-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D88BDC527EDD7C50003C970 /* Sources */ = {
@@ -430,13 +369,12 @@
 		};
 		0D88BDD827EDD7D10003C970 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 165723E628514D7EC938A2B3 /* Pods-SabusukuKanri.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SabusukuKanri/SabusukuKanri.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = NMVH7U46L7;
 				ENABLE_PREVIEWS = YES;
@@ -452,7 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = harukikoga.com.SabusukuKanri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -463,13 +401,12 @@
 		};
 		0D88BDD927EDD7D10003C970 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4AEA9B7D849C0D3CB1B9B0C /* Pods-SabusukuKanri.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SabusukuKanri/SabusukuKanri.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = NMVH7U46L7;
 				ENABLE_PREVIEWS = YES;
@@ -485,7 +422,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = harukikoga.com.SabusukuKanri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
